@@ -4,5 +4,13 @@ ui-tests:
   app: app/build/outputs/apk/internal/debug/app-internal-debug.apk
   test: app/build/outputs/apk/androidTest/internal/debug/app-internal-debug-androidTest.apk
   device:
-    - {model: Nexus9, version: 24}
-    - {model: flame, version: 29}
+    - {model: m0, version: 18} # Samsung Galaxy S3
+    - {model: htc_m8, version: 19} # HTC One (M8)
+    - {model: Nexus5, version: 21}
+    - {model: shamu, version: 22} # Nexus 6
+    - {model: j7xelte, version: 23} # Galaxy J7 (SM-J710MN)
+    - {model: lucye, version: 24} # LG G6 LGUS997
+    - {model: cheryl, version: 25} # Razer Phone
+    - {model: Pixel2, version: 27} # Pixel 2
+    - {model: blueline, version: 28} # Pixel 3
+    - {model: flame, version: 29} # Pixel 4
